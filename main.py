@@ -40,11 +40,15 @@ def str_test():
 \t * PARTICULAR PURPOSE.'''
     print(long_string)
 
+def io_interaction():
+    x = input('Enter your name:')
+    print('Hello, ' + x) 
 
+    
 if __name__ == '__main__':
     #test_scope()
     #print(num, 'in main function')
     #find_prime()
     #str_test()
-    student_grades.student_grades() #module calls a function; cannot just call module (no function inside)?
-
+    #student_grades.student_grades() #module calls a function; cannot just call module (no function inside)?
+    io_interaction()
